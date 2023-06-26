@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletMove : MonoBehaviour
+public class BulletMaker : MonoBehaviour
 {
   [SerializeField] private float bulletSpeed;
   [SerializeField] private float lifeTime;
