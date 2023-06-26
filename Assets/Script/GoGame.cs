@@ -21,7 +21,7 @@ public class GoGame : MonoBehaviour
       if(Input.GetKey(KeyCode.Space))
       {
         dataCs.score = 0;
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("PlayGame");
       }
     }
 }
